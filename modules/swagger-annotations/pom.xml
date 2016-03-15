@@ -12,6 +12,13 @@
     <version>1.5.9-SNAPSHOT</version>
     <packaging>bundle</packaging>
     <name>swagger-annotations</name>
+    <dependencies>
+        <dependency>
+    	<groupId>junit</groupId>
+    	<artifactId>junit</artifactId>
+    	<version>4.11</version>
+        </dependency>
+    </dependencies>
     <build>
         <sourceDirectory>src/main/java</sourceDirectory>
         <defaultGoal>install</defaultGoal>
